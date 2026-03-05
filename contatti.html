@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contatti | Il mio sito</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="chi-sono.html">Chi sono</a>
+        <a href="contatti.html">Contatti</a>
+      </nav>
+
+      <h1>Contatti</h1>
+      <p>Scrivimi qui (per ora è solo grafica, più avanti lo renderemo “vero”).</p>
+
+      <form>
+        <p>
+          <label for="nome">Nome</label><br />
+          <input id="nome" name="nome" type="text" placeholder="Il tuo nome" />
+        </p>
+
+        <p>
+          <label for="email">Email</label><br />
+          <input id="email" name="email" type="email" placeholder="nome@email.com" />
+        </p>
+
+        <p>
+          <label for="messaggio">Messaggio</label><br />
+          <textarea id="messaggio" name="messaggio" rows="5" placeholder="Ciao Bruno..."></textarea>
+        </p>
+
+        <button type="button">Invia</button>
+      </form>
+
+      <div class="footer">
+        Email: <a href="mailto:tuamail@example.com">tuamail@example.com</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
